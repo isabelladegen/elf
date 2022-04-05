@@ -1,0 +1,23 @@
+name: elf
+channels:
+  - conda-forge
+  - maxibor
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - jupyterlab
+  - datasets
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - nltk
+  - pytorch
+  - seaborn
+  - wandb # experiment mgr
+  - pytest
+  - pyhamcrest
+  - plotly
+  - scrapy
+  - beautifulsoup4
